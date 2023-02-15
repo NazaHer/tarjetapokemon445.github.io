@@ -1,0 +1,75 @@
+:root {
+  --color1: #f8b78b;
+  --color2: #b3d08e;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: yellow;
+  font-family: sans-serif;
+  background-color: var(--color1);
+  background-image: url(../imgs/garchompwallpaper.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 328px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.card-header {
+  width: 100%;
+  display: block;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid var(--color2);
+}
+.card-body-content {
+  background-color: #b3d08e;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0px -10px 20px #b3d08e;
+  align-items: center;
+  margin-top: -48px;
+}
+.card-body-content-img {
+  padding: 15px;
+}
+.card-body-title {
+  font-size: 1rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+.card-footer-tipo {
+  text-align: center;
+}
+.card-footer-tiposecundario {
+  text-align: center;
+}
+.card-footer-debilidad {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
